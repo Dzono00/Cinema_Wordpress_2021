@@ -734,7 +734,7 @@
 
 		var fonts = [];
 
-        $.getJSON("https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyBmNd8k2DDxBqmU2d4B9AbPDSHfR12DJ6c", function(response) {
+const googleApiKey = "***REDACTED***";
             for (var key in response.items) {
 				fonts.push(response.items[key].family)
             }
